@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dhanush R | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+      <div class="logo">
+         Dhanush R
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#education">Education</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+      <button id="theme-toggle" class="theme-btn">
+         <i class="fa-solid fa-moon"></i>
+      </button>
+
+      <div class="menu-toggle" id="menuToggle">
+         <i class="fa-solid fa-bars"></i>
+      </div>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-left">
+
+            <h4>👋 Hello, I'm</h4>
+
+            <h1>
+
+                Dhanush <span>R</span>
+
+            </h1>
+
+            <h2>
+
+                <span id="typing"></span>
+
+            </h2>
+
+            <p>
+
+                Passionate Computer Science graduate specializing in
+                Java, Node.js, Express.js, MongoDB and modern
+                Full Stack Development.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+
+                    View Projects
+
+                </a>
+
+                <a href="resume/Dhanush_Resume.pdf" class="btn-outline" download>
+                    <i class="fa-solid fa-download"></i>
+                    Download Resume
+                </a>
+
+            </div>
+
+            <!-- Social Links -->
+
+            <div class="social-links">
+
+                <a href="https://github.com/DHANUSH-916"
+                    target="_blank"
+                    class="social-btn github">
+
+                    <i class="fab fa-github"></i>
+
+                    GitHub
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/dhanush-reddy-b2a51b25b"
+                    target="_blank"
+                    class="social-btn linkedin">
+
+                    <i class="fab fa-linkedin"></i>
+
+                    LinkedIn
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <!-- Replace this with your photo later -->
+
+            <div class="profile-placeholder">
+
+                👨‍💻
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <h2 class="section-title">
+
+            About Me
+
+        </h2>
+
+        <p class="section-text">
+
+            I am a Computer Science graduate passionate about Full Stack
+            Development. I enjoy developing responsive and scalable web
+            applications using Java, Node.js, Express.js and MongoDB.
+
+        </p>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+        <h2 class="section-title">
+
+            Skills
+
+        </h2>
+
+        <div class="skills">
+
+            <div class="skill-card">Java</div>
+
+            <div class="skill-card">HTML</div>
+
+            <div class="skill-card">CSS</div>
+
+            <div class="skill-card">JavaScript</div>
+
+            <div class="skill-card">MySQL</div>
+
+            <div class="skill-card">Node.js</div>
+
+            <div class="skill-card">Express.js</div>
+
+            <div class="skill-card">MongoDB</div>
+
+            <div class="skill-card">Git</div>
+
+            <div class="skill-card">GitHub</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section">
+
+       <h2 class="section-title">
+          Education
+
+       </h2>
+
+       <div class="education-card">
+
+            <h3>Bachelor of Technology (Information Science)</h3>
+
+            <h4>Presidency University, Bengaluru</h4>
+
+            <p>
+              Graduated in 2026
+
+            </p>
+
+            <p>
+              CGPA: 7.31
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+       <h2 class="section-title">Projects</h2>
+
+       <div class="filter-buttons">
+
+          <button class="filter-btn active" data-filter="all">
+             All
+          </button>
+
+          <button class="filter-btn" data-filter="Full Stack">
+             Full Stack
+          </button>
+
+          <button class="filter-btn" data-filter="Backend">
+             Backend
+          </button>
+
+          <button class="filter-btn" data-filter="Java">
+             Java
+          </button>
+
+        </div>
+
+        <div id="project-container"></div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-details">
+
+        <p>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:dhanushreddy916@gmail.com">dhanushreddy916@gmail.com</a>
+        </p>
+
+        <p>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+918951942667">+91 8951942667</a>
+        </p>
+
+        <p>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/dhanush-reddy-b2a51b25b" target="_blank">
+                LinkedIn Profile
+            </a>
+        </p>
+
+        <p>
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/DHANUSH-916" target="_blank">
+                GitHub Profile
+            </a>
+        </p>
+
+        <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Karnataka, India
+        </p>
+
+    </div>
+
+</section>
+    <!-- ================= PROJECT MODAL ================= -->
+
+<div id="projectModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <img id="modalImage" src="" alt="Project">
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <div id="modalTech" class="tech-list"></div>
+
+        <div class="project-buttons">
+
+            <a id="modalGithub" class="github-btn" target="_blank">
+                GitHub
+            </a>
+
+            <a id="modalDemo" class="demo-btn" target="_blank">
+                Live Demo
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Dhanush R | All Rights Reserved
+
+        </p>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
