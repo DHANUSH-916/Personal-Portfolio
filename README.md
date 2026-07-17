@@ -168,7 +168,7 @@ A RESTful Task Manager backend application developed using **Node.js**, **Expres
 **Dhanush R**
 
 - 📧 Email: dhanushreddy916@gmail.com
-- 💼 LinkedIn: (https://www.linkedin.com/in/dhanush-reddy-b2a51b25b/)
+- 💼 LinkedIn: https://www.linkedin.com/in/dhanush-reddy-b2a51b25b/
 - 🐙 GitHub: https://github.com/DHANUSH-916
 
 ---
