@@ -4,7 +4,7 @@ async function loadProjects() {
 
     try {
 
-        const response = await fetch("http://localhost:5000/api/projects");
+        const response = await fetch("https://personal-portfolio-u64y.onrender.com/api/projects");
 
         const projects = await response.json();
 
