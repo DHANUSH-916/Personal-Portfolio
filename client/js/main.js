@@ -16,9 +16,9 @@ async function loadProjects() {
 
             <div class="project-card">
 
-                <img src="images/TaskManager.png"
-                    class="project-image"
-                    alt="${project.title}">
+                <img src="${project.image}"
+                     class="project-image"
+                     alt="${project.title}">
 
                 <div class="project-content">
 
