@@ -25,6 +25,11 @@
 </head>
 
 <body>
+    <!----
+    <div id="loader">
+       <div class="spinner"></div>
+    </div>
+    -->
 
     <!-- ================= NAVBAR ================= -->
 
@@ -82,9 +87,10 @@
 
             <p>
 
-                Passionate Computer Science graduate specializing in
-                Java, Node.js, Express.js, MongoDB and modern
-                Full Stack Development.
+                Computer Science graduate with a strong foundation in Java, SQL, Object-Oriented Programming, and web 
+                development. Experienced in software application development through academic projects and a Java Developer 
+                internship. Passionate about building practical, user-focused solutions and eager to learn emerging technologies while 
+                contributing to innovative software development. 
 
             </p>
 
@@ -133,7 +139,7 @@
 
         <div class="hero-right">
 
-            <img src="images/Developer.jpeg"
+            <img src="images/Developer.png"
             alt="Dhanush R"
             class="profile-image">
 
@@ -145,59 +151,138 @@
 
     <!-- ================= ABOUT ================= -->
 
-    <section id="about" class="section">
+    
 
-        <h2 class="section-title">
+<section id="about" class="section">
 
-            About Me
+    <h2 class="section-title">About Me</h2>
 
-        </h2>
+    <div class="about-container">
 
-        <p class="section-text">
+        <div class="about-text">
 
-            I am a Computer Science graduate passionate about Full Stack
-            Development. I enjoy developing responsive and scalable web
-            applications using Java, Node.js, Express.js and MongoDB.
+            <h3>Full Stack Developer</h3>
 
-        </p>
+            <p>
+                I am a passionate computer Science graduate specializing in
+                Full Stack Development. I enjoy building responsive,
+                scalable, and user-friendly web applications.
+            </p>
 
-    </section>
+            <p>
+                My technical skills include Java, Node.js, Express.js,MySQL,
+                MongoDB, HTML, CSS, JavaScript, and REST APIs. I enjoy
+                learning new technologies and solving real-world problems
+                through software development.
+            </p>
+
+        </div>
+
+        <div class="about-info">
+
+            <div class="info-card">
+                <h4>🎓 Education</h4>
+                <p>B.Tech (Information Science)</p>
+            </div>
+
+            <div class="info-card">
+                <h4>📍 Location</h4>
+                <p>Karnataka, India</p>
+            </div>
+
+            <div class="info-card">
+                <h4>💻 Specialization</h4>
+                <p>Full Stack Development</p>
+            </div>
+
+            <div class="info-card">
+                <h4>🚀 Goal</h4>
+                <p>Software Developer</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= STATS ================= -->
+
+<section id="stats" class="section">
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h2>5+</h2>
+            <p>Projects Completed</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>10+</h2>
+            <p>Technologies Learned</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>100%</h2>
+            <p>Passion for Learning</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>2026</h2>
+            <p>B.Tech Graduate</p>
+        </div>
+
+    </div>
+
+</section>
 
     <!-- ================= SKILLS ================= -->
 
     <section id="skills" class="section">
 
-        <h2 class="section-title">
+    <h2 class="section-title">Technical Skills</h2>
 
-            Skills
+    <div class="skills-grid">
 
-        </h2>
-
-        <div class="skills">
-
-            <div class="skill-card">Java</div>
-
-            <div class="skill-card">HTML</div>
-
-            <div class="skill-card">CSS</div>
-
-            <div class="skill-card">JavaScript</div>
-
-            <div class="skill-card">MySQL</div>
-
-            <div class="skill-card">Node.js</div>
-
-            <div class="skill-card">Express.js</div>
-
-            <div class="skill-card">MongoDB</div>
-
-            <div class="skill-card">Git</div>
-
-            <div class="skill-card">GitHub</div>
-
+        <div class="skill-card">
+            <i class="fab fa-java"></i>
+            <h3>Java</h3>
+            <p>Core Java, OOP, Collections</p>
         </div>
 
-    </section>
+        <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+           
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-node-js"></i>
+            <h3>Node.js</h3>
+            <p>Express.js, REST APIs</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h3>MongoDB</h3>
+            <p>Mongoose, CRUD Operations</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Semantic & Responsive Layouts</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, Animations</p>
+        </div>
+
+    </div>
+
+</section>
 
     <!-- ================= EDUCATION ================= -->
 
@@ -219,9 +304,7 @@
 
             </p>
 
-            <p>
-              CGPA: 7.31
-            </p>
+            
 
         </div>
 
@@ -278,14 +361,14 @@
         <p>
             <i class="fa-brands fa-linkedin"></i>
             <a href="https://www.linkedin.com/in/dhanush-reddy-b2a51b25b" target="_blank">
-                LinkedIn Profile
+                LinkedIn 
             </a>
         </p>
 
         <p>
             <i class="fa-brands fa-github"></i>
             <a href="https://github.com/DHANUSH-916" target="_blank">
-                GitHub Profile
+                GitHub 
             </a>
         </p>
 
@@ -341,6 +424,38 @@
     </footer>
 
     <script src="js/main.js"></script>
+
+<button id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<footer class="footer">
+
+    <h3>Dhanush R</h3>
+
+    <p>Full Stack Developer</p>
+
+    <div class="footer-social">
+
+        <a href="https://github.com/DHANUSH-916" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="YOUR_LINKEDIN_URL" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:YOUR_EMAIL@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Dhanush R. All Rights Reserved.
+    </p>
+
+</footer>
 
 </body>
 

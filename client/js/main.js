@@ -16,7 +16,9 @@ async function loadProjects() {
 
             <div class="project-card">
 
-                <img src="https://placehold.co/600x350?text=Task+Manager+API" class="project-image" alt="${project.title}">
+                <img src="images/TaskManager.png"
+                    class="project-image"
+                    alt="${project.title}">
 
                 <div class="project-content">
 
@@ -189,3 +191,32 @@ menuToggle.addEventListener("click",()=>{
     navLinks.classList.toggle("active");
 
 });
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        backToTop.style.display = "block";
+    } else {
+        backToTop.style.display = "none";
+    }
+});
+
+backToTop.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+/*
+window.addEventListener("load", () => {
+    const loader = document.getElementById("loader");
+
+    if (loader) {
+        loader.style.opacity = "0";
+
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 500);
+    }
+});
+*/
