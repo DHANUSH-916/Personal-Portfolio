@@ -1459,8 +1459,10 @@ body.dark #loader{
 
 }
 
-/* Make hero image circular */
-.hero-image img {
-    border-radius: 50%;
+.hero-right .profile-image {
+    width: 400px;
+    height: 400px;
     object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2563eb;
 }
