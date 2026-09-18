@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio
 
-A modern, responsive **Full Stack Developer Portfolio** built to showcase my skills, projects, education, and experience. This portfolio features a clean UI, responsive design, dark mode, and a dynamic projects section powered by a Node.js backend and MongoDB database.
+A modern, responsive **Full Stack Developer Portfolio** built to showcase my skills, projects, education, and experience. This portfolio features a clean UI, responsive design, dark mode, and a dynamic projects section.
 
 ## 🌐 Live Demo
 
@@ -39,15 +39,9 @@ https://github.com/DHANUSH-916/Personal-Portfolio
 - CSS3
 - JavaScript
 
-### Backend
 
-- Node.js
-- Express.js
 
-### Database
 
-- MongoDB Atlas
-- Mongoose
 
 ### Tools & Platforms
 
@@ -141,27 +135,13 @@ or run it using **Live Server** in Visual Studio Code.
 
 - **Render**
 
-### Database
 
-- **MongoDB Atlas**
 
 ---
 
 ## 📌 Current Project
 
-### 📝 Task Manager API
 
-A RESTful Task Manager backend application developed using **Node.js**, **Express.js**, and **MongoDB**.
-
-**Features**
-
-- CRUD Operations
-- RESTful APIs
-- MongoDB Integration
-- Mongoose ODM
-- MVC Architecture
-
----
 
 ## 📞 Contact
 
