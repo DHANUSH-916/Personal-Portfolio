@@ -1423,3 +1423,30 @@ body.dark .hero-left h1 {
 body.dark .hero-left h1 span {
     color: #60a5fa !important;
 }
+/* NAVBAR POLISH */
+
+.navbar {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+    font-weight: 700;
+    color: #2563eb;
+}
+
+.nav-links a {
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
+
+.theme-btn {
+    transition: transform 0.2s ease;
+}
+
+.theme-btn:hover {
+    transform: rotate(15deg);
+}
