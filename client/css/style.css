@@ -1354,3 +1354,36 @@ body {
         height: 240px;
     }
 }
+.about-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.info-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.info-card h4 {
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .about-info {
+        grid-template-columns: 1fr;
+    }
+}
