@@ -1404,3 +1404,22 @@ body.dark .hero-left h1 {
 body.dark .hero-left h1 span {
     color: #60a5fa;
 }
+/* DAY MODE - HERO NAME */
+
+body:not(.dark) .hero-left h1 {
+    color: #1f2937 !important;
+}
+
+body:not(.dark) .hero-left h1 span {
+    color: #2563eb !important;
+}
+
+/* DARK MODE */
+
+body.dark .hero-left h1 {
+    color: #ffffff !important;
+}
+
+body.dark .hero-left h1 span {
+    color: #60a5fa !important;
+}
