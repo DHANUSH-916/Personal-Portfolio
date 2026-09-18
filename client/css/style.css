@@ -1387,3 +1387,20 @@ body {
         grid-template-columns: 1fr;
     }
 }
+/* FIX HERO NAME COLOR */
+
+.hero-left h1 {
+    color: #1f2937;
+}
+
+.hero-left h1 span {
+    color: #2563eb;
+}
+
+body.dark .hero-left h1 {
+    color: #ffffff;
+}
+
+body.dark .hero-left h1 span {
+    color: #60a5fa;
+}
