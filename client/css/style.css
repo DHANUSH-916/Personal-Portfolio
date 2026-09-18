@@ -1077,3 +1077,30 @@ body {
 #contact {
     background: #F4F4F4 !important;
 }
+/* LIGHT GREEN BACKGROUND */
+
+body {
+    background: #E8F5E9 !important;
+}
+
+.hero,
+.section,
+#home,
+#about,
+#stats,
+#skills,
+#education,
+#projects,
+#contact {
+    background: #E8F5E9 !important;
+}
+
+/* Keep cards white */
+.skill-card,
+.project-card,
+.info-card,
+.stat-card,
+.education-card,
+.contact-details {
+    background: #ffffff;
+}
