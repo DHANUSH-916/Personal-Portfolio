@@ -1061,3 +1061,19 @@ body.dark .filter-btn.active {
         height: 220px;
     }
 }
+/* FINAL BACKGROUND */
+body {
+    background: #F4F4F4 !important;
+}
+
+.hero,
+.section,
+#home,
+#about,
+#stats,
+#skills,
+#education,
+#projects,
+#contact {
+    background: #F4F4F4 !important;
+}
