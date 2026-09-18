@@ -1538,3 +1538,39 @@ body.dark .hero-left h1 span {
 body.dark .section-title {
     color: #ffffff;
 }
+.about-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-text {
+    line-height: 1.8;
+}
+
+.about-text h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2563eb;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
