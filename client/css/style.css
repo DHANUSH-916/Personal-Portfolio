@@ -1579,3 +1579,13 @@ body.dark .section-title {
 .footer {
     background: lightblue !important;
 }
+/* ACTIVE NAV LINK */
+
+.nav-links a.active {
+    color: #2563eb;
+    font-weight: 700;
+}
+
+body.dark .nav-links a.active {
+    color: #60a5fa;
+}
