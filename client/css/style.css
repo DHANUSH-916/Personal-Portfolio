@@ -1574,3 +1574,8 @@ body.dark .section-title {
         gap: 30px;
     }
 }
+/* FOOTER BACKGROUND */
+
+.footer {
+    background: #DCFCE7 !important;
+}
