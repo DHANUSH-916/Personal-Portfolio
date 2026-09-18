@@ -1515,3 +1515,26 @@ body.dark .hero-left h1 span {
     transform: translateY(-4px);
     background: #1d4ed8;
 }
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    color: #1f2937;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #2563eb;
+    border-radius: 5px;
+    margin: 10px auto 0;
+}
+
+/* Dark mode */
+body.dark .section-title {
+    color: #ffffff;
+}
